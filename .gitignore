@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# C++
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+build/
+
+# Node / Frontend
+node_modules/
+dist/
+.env
+.env.local
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

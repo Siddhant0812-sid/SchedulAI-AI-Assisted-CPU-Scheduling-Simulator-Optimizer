@@ -1,0 +1,13 @@
+{
+  "id": "priority-vs-srtf",
+  "name": "Priority vs Remaining Time Conflict",
+  "category": "Priority Levels",
+  "description": "Contrasts SRTF (favors short jobs) with Preemptive Priority (favors critical priority=1 jobs even when their burst is longer).",
+  "time_quantum": 2,
+  "processes": [
+    {"id": 1, "arrival_time": 0, "burst_time": 4, "priority": 3},
+    {"id": 2, "arrival_time": 1, "burst_time": 7, "priority": 1},
+    {"id": 3, "arrival_time": 2, "burst_time": 2, "priority": 2}
+  ]
+}
+

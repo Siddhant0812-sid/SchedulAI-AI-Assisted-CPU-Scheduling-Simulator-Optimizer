@@ -1,0 +1,14 @@
+{
+  "id": "simultaneous-arrivals",
+  "name": "Simultaneous Batch Arrivals",
+  "category": "Batch",
+  "description": "All processes arrive at time 0 with varying burst lengths and priorities, highlighting non-preemptive vs round-robin ordering.",
+  "time_quantum": 3,
+  "processes": [
+    {"id": 1, "arrival_time": 0, "burst_time": 10, "priority": 3},
+    {"id": 2, "arrival_time": 0, "burst_time": 3, "priority": 1},
+    {"id": 3, "arrival_time": 0, "burst_time": 5, "priority": 2},
+    {"id": 4, "arrival_time": 0, "burst_time": 2, "priority": 4}
+  ]
+}
+

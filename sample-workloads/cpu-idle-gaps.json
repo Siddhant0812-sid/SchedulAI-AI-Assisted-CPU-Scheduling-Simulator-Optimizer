@@ -1,0 +1,13 @@
+{
+  "id": "cpu-idle-gaps",
+  "name": "Sparse Arrivals with CPU Idle Gaps",
+  "category": "Idle Periods",
+  "description": "Processes arrive after an initial delay and leave an idle gap mid-schedule, testing idle timeline segments and response times.",
+  "time_quantum": 2,
+  "processes": [
+    {"id": 1, "arrival_time": 2, "burst_time": 3, "priority": 2},
+    {"id": 2, "arrival_time": 8, "burst_time": 4, "priority": 1},
+    {"id": 3, "arrival_time": 10, "burst_time": 2, "priority": 3}
+  ]
+}
+

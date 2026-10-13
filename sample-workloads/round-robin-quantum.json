@@ -1,0 +1,14 @@
+{
+  "id": "round-robin-quantum",
+  "name": "Interactive Time-Sharing (Round Robin)",
+  "category": "Round Robin",
+  "description": "Staggered interactive arrivals designed for comparing fast first-response times in Round Robin against turnaround time in SJF/SRTF.",
+  "time_quantum": 2,
+  "processes": [
+    {"id": 1, "arrival_time": 0, "burst_time": 5, "priority": 2},
+    {"id": 2, "arrival_time": 1, "burst_time": 4, "priority": 2},
+    {"id": 3, "arrival_time": 2, "burst_time": 3, "priority": 1},
+    {"id": 4, "arrival_time": 4, "burst_time": 6, "priority": 3}
+  ]
+}
+

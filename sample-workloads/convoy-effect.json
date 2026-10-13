@@ -1,0 +1,14 @@
+{
+  "id": "convoy-effect",
+  "name": "FCFS Convoy Effect",
+  "category": "Short & Long Mix",
+  "description": "A long CPU-bound process arrives just before several short interactive jobs, illustrating the classic FCFS convoy effect vs SJF/SRTF.",
+  "time_quantum": 2,
+  "processes": [
+    {"id": 1, "arrival_time": 0, "burst_time": 16, "priority": 3},
+    {"id": 2, "arrival_time": 1, "burst_time": 2, "priority": 2},
+    {"id": 3, "arrival_time": 2, "burst_time": 3, "priority": 1},
+    {"id": 4, "arrival_time": 3, "burst_time": 1, "priority": 2}
+  ]
+}
+
